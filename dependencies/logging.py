@@ -13,6 +13,7 @@ class Log4j(object):
     :param spark: SparkSession object.
     """
 
+
     def __init__(self, spark):
         # get spark app details with which to prefix all messages
         conf = spark.sparkContext.getConf()
